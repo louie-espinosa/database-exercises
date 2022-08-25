@@ -29,3 +29,5 @@
             ('Santana', 'Supernatural', 1999, 20.8, 'Rock'),
             ('Guns N'' Roses', 'Appetite for Destruction', 1987, 22.8, 'Rock'),
             ('Elton John', 'Goodbye Yellow Brick Road', 1973, 15.6, 'Pop');
+
+--used TRUNCATE to reset album
