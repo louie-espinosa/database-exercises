@@ -21,6 +21,6 @@ SELECT * FROM albums WHERE release_date between 1990 and 1999; --or where releas
 
 SELECT * FROM albums WHERE  < 20;
 
-SELECT * FROM albums WHERE genre = 'Rock';
+SELECT * FROM albums WHERE genre = 'Rock'; --or where genre like '%Rock%', to get all rock and sub rock genres.
 --Because we want a main genre and sub genre contains more than one
 
