@@ -17,7 +17,7 @@ SELECT genre
 FROM albums
 WHERE name = 'Nevermind'
 
-SELECT * FROM albums WHERE release_date = 1990;
+SELECT * FROM albums WHERE release_date between 1990 and 1999; --or where release_date like '199_';
 
 SELECT * FROM albums WHERE  < 20;
 
