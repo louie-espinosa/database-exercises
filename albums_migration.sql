@@ -1,5 +1,5 @@
 
-USE codeup_test_db;
+USE louie;
 DROP TABLE IF EXISTS albums;
 
 CREATE TABLE albums (
