@@ -10,19 +10,7 @@ SELECT *
 FROM employees
 WHERE last_name like 'E%'
 order by emp_no desc;
--- Find all employees with a 'q' in their last name — 1,873 rows.
-SELECT *
-FROM employees
-WHERE last_name like '%q%';
--- Update your query for 'Irena', 'Vidya', or 'Maya' to use OR instead of IN — 709 rows.
-SELECT *
-FROM employees
-WHERE first_name = 'Irena' or first_name = 'Vidya' or first_name = 'Maya';
--- Add a condition to the previous query to find everybody with those names who is also male — 441 rows.
-SELECT *
-FROM employees
-where (first_name = 'Irena' or first_name = 'Vidya' or first_name = 'Maya') -- use
-  and gender = 'm';
+
 -- Find all employees whose last name starts or ends with 'E' — 30,723 rows.
 SELECT *
 FROM employees
@@ -35,8 +23,4 @@ FROM employees
 WHERE last_name like 'E%'
   and last_name like '%E'
 order by emp_no desc;
--- Find all employees with a 'q' in their last name but not 'qu' — 547 rows.
-SELECT *
-FROM employees
-WHERE last_name like '%q%'
-  and last_name not like '%qu%';
+
