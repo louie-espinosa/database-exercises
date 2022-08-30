@@ -1,5 +1,6 @@
 -- describe employees;
 -- Find all employees with first names 'Irena', 'Vidya', or 'Maya' — 709 rows (Hint: Use IN).
+-- order by first_name, last_name. Finally, refactor to order by LN, then FN
 SELECT *
 FROM employees
 WHERE first_name in ('Irena', 'Vidya', 'Maya')
