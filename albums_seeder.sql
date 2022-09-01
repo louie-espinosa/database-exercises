@@ -1,6 +1,7 @@
 
 
-    --Use INSERT to add records for all the albums from this list on Wikipedia that claim over 30 million sales (the first two tables). For sales data, use the 'sales certification' column of the tables, not 'claimed sales'.
+#     Use INSERT to add records for all the albums from this list on Wikipedia that claim over 30 million sales (the first two tables). For sales data, use the 'sales certification' column of the tables, not 'claimed sales'.
+use louie;
     INSERT INTO albums (artist, name, release_date, sales, genre)
     VALUES  ('Michael Jackson', 'Thriller', 1982, 50.2, 'Pop'),
             ('AC/DC', 'Back in Black', '1982', 30.1, 'Pop'),
@@ -30,4 +31,4 @@
             ('Guns N'' Roses', 'Appetite for Destruction', 1987, 22.8, 'Rock'),
             ('Elton John', 'Goodbye Yellow Brick Road', 1973, 15.6, 'Pop');
 
---used TRUNCATE to reset album
+# --used TRUNCATE to reset album
